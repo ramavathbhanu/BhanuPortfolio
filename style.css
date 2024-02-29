@@ -60,7 +60,7 @@
 
 .my-image2 {
     width: 100%; /* Adjust as needed */
-    height:100vh; /* Ensures the image scales proportionally */
+    height:auto; /* Ensures the image scales proportionally */
     transition: box-shadow 0.3s ease; /* Adding a smooth transition effect */
 }
 
@@ -293,7 +293,8 @@ body {
 }
 .project-image{
     height: 30vh;
-    width: 70vh;
+    width: auto;
+    background-color: #000016;
 }
 
 .project-card {
@@ -518,6 +519,13 @@ h3, p {
   .contact{
     background-color:#080808;
   }
+
+
+.contact-heading{
+  color:white;
+}
+
+
   .contact .content{
     display: flex;
     justify-content: center;
@@ -563,7 +571,7 @@ h3, p {
   }
   
   .contact .content .row .card .info h3{
-    color: #111;
+    color: #ffffff;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
@@ -617,7 +625,7 @@ h3, p {
   
   .contact-form .input-box .send-btn{
     color: #fff;
-    background:  #d0b200;
+    background:  #fbb620;
     display: inline-block;
     font-size: 1.1em;
     font-weight: 500;
